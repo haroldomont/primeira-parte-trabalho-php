@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&family=Poppins:wght@300;400;600&display=swap');
+
+body
+{
+    font-family: Poppins, sans-serif;
+    color: #ffffff;
+    display: flex;
+}
+
+.camisa1 img
+{
+
+    height: 450px;
+    border-radius: 10px;
+    margin-right: 50px;
+    transition: height .5s;
+}
+
+.camisa2 img
+{
+    height: 450px;
+    border-radius: 10px;
+    margin-left: 50px;
+    transition: height .5s;
+}
+
+.camisa1 img:hover
+{
+    height: 550px;  
+    transition: height .5s;
+    cursor: pointer;
+}
+.camisa2 img:hover
+{
+    height: 550px;
+    transition: height .5s;
+    cursor: pointer;
+}

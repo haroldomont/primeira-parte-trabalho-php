@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&family=Poppins:wght@300;400;600&display=swap');
+
+body
+{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.formPerfil
+{
+    width: 700px;
+    padding: 2rem;
+    border-radius: 50px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.500);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    color: black;
+    transition: background .5s;
+    transition: color .5s;
+}
+
+.formPerfil input[type="text"]
+{
+    border: none;
+    outline: none;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.500);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    padding: 1rem 1.5rem;
+    padding-left: calc(1rem * 3.5);
+    border-radius: 100px;
+    width: 600px;
+    color: black;
+    background: rgba(255, 255, 255, 0);
+    transition: background .5s;
+    transition: color .5s;
+}
+
+.formPerfil input[type="email"]
+{
+    border: none;
+    outline: none;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.500);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    padding: 1rem 1.5rem;
+    padding-left: calc(1rem * 3.5);
+    border-radius: 100px;
+    width: 600px;
+    color: black;
+    transition: background .5s;
+    background: rgba(255, 255, 255, 0);
+    transition: color .5s;
+
+}
+
+.formPerfil input[type="password"]
+{
+    border: none;
+    outline: none;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.500);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    padding: 1rem 1.5rem;
+    padding-left: calc(1rem * 3.5);
+    border-radius: 100px;
+    width: 600px;
+    color: black;
+    transition: background .5s;
+    background: rgba(255, 255, 255, 0);
+    transition: color .5s;
+}
+
+
+.formPerfil button[type ="submit"]
+{
+    margin-top: 10px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.500);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    border-radius: 100px;
+    border: none;
+    padding: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    width: 100%;
+    cursor: pointer;
+    color: black;
+    transition: background .5s;
+    background: rgba(255, 255, 255, 0);
+    transition: color .5s;
+}
+
+
+.formPerfil input[type="text"]:hover,
+.formPerfil input[type="email"]:hover,
+.formPerfil input[type="password"]:hover
+{
+    background: rgba(0, 0, 0, 0.24);
+    transition: background .5s;
+}
+
+.formPerfil input[type="text"]:focus,
+.formPerfil input[type="email"]:focus,
+.formPerfil input[type="password"]:focus
+{
+    color: azure;
+    transition: color .5s;
+    background: rgba(107, 107, 107, 0.24);
+    transition: background .5s;
+}

@@ -1,0 +1,46 @@
+.container
+{
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.botao1
+{
+    display: flex;
+    padding: 1.5rem;
+    margin: .5rem;
+    margin-top: 4.5px;
+    margin-right: 100px;
+    border-radius: 100px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.500);
+    border: .5px solid rgba(255, 255, 255, 0.349);
+    backdrop-filter: blur(5px);
+}
+
+.botao2
+{
+    display: flex;
+    padding: 1.5rem;
+    margin: .5rem;
+    margin-top: 4.5px;
+    border-radius: 100px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.500);
+    border: .5px solid rgba(255, 255, 255, 0.349);
+    backdrop-filter: blur(5px);
+}
+
+.botao3
+{
+    display: flex;
+    padding: 1.5rem;
+    margin: .5rem;
+    margin-top: 4.5px;
+    margin-left: 100px;
+    border-radius: 100px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.500);
+    border: .5px solid rgba(255, 255, 255, 0.349);
+    backdrop-filter: blur(5px);
+}

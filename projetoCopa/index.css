@@ -1,0 +1,62 @@
+
+
+body
+{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(320deg, #fffb00, #5eff00da, #0026ff);
+}
+
+.cabecalho
+{
+    height: 100px;
+    transition: width .7s;
+    border-radius: 10px;
+    margin-top: 33px;
+    margin-bottom: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: #212529;
+    color: #899095;
+    box-shadow:  11px 11px 22px #121417,
+                -11px -11px 22px #30363b;*/
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.500);
+    border: .5px solid rgba(255, 255, 255, 0.349);
+    backdrop-filter: blur(5px);
+
+}
+
+.corpo
+{
+    margin-top: 13px;
+    width: 1500px;
+    height: 570px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    /*background-color: #212529;
+    color: #899095;
+    box-shadow:  11px 11px 22px #121417,
+                -11px -11px 22px #30363b;*/
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.500);
+    border: .5px solid rgba(255, 255, 255, 0.349);
+    backdrop-filter: blur(5px);
+}
+
+.rodape
+{
+    width: 1500px;
+    height: 120px;
+    margin-top: 33px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.500);
+    border: .5px solid rgba(255, 255, 255, 0.349);
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

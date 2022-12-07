@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&family=Poppins:wght@300;400;600&display=swap');
+
+body
+{
+    font-family: Poppins, sans-serif;
+    color: #ffffff;
+}
+
+
+
+.texto
+{
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 50px;
+    margin-right: 100px;
+}
+
+.texto h1
+{
+    color: rgb(0, 0, 54);
+    padding: 10px;
+}
+
+.img img
+{
+    width: 500px;
+    margin-right: 50px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
